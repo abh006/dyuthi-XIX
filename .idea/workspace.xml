@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="983c8fa6-6d59-4d04-afa9-8603332134d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exhibition/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Exhibition/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exhibition/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exhibition/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exhibition/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,24 +14,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exhibition/index.html">
+        <entry file="file://$PROJECT_DIR$/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="213" column="43" selection-start-line="213" selection-start-column="43" selection-end-line="213" selection-end-column="43" />
+            <state relative-caret-position="371">
+              <caret line="208" column="61" selection-start-line="208" selection-start-column="61" selection-end-line="208" selection-end-column="61" />
               <folding>
+                <element signature="n#style#0;n#circle#0;n#symbol#4;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8154#8161#0" expanded="true" />
-                <element signature="e#8204#8211#0" expanded="true" />
+                <element signature="e#8191#8198#0" expanded="true" />
+                <element signature="e#8241#8248#0" expanded="true" />
+                <element signature="e#9148#9155#0" expanded="true" />
+                <element signature="e#9181#9188#0" expanded="true" />
+                <element signature="e#9473#9480#0" expanded="true" />
+                <element signature="e#9509#9516#0" expanded="true" />
+                <element signature="e#9850#9857#0" expanded="true" />
+                <element signature="e#9880#9887#0" expanded="true" />
+                <element signature="e#10155#10162#0" expanded="true" />
+                <element signature="e#10162#10169#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exhibition/css/demo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="297" column="14" selection-start-line="297" selection-start-column="14" selection-end-line="297" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -43,6 +42,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>akiyama</find>
+      <find>slide__name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -53,6 +53,7 @@
       <list>
         <option value="$PROJECT_DIR$/Exhibition/css/demo.css" />
         <option value="$PROJECT_DIR$/Exhibition/index.html" />
+        <option value="$PROJECT_DIR$/home/index.html" />
       </list>
     </option>
   </component>
@@ -77,13 +78,7 @@
             <path>
               <item name="dyuthi-XIX" type="b2602c69:ProjectViewProjectNode" />
               <item name="dyuthi-XIX" type="462c0819:PsiDirectoryNode" />
-              <item name="Exhibition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dyuthi-XIX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dyuthi-XIX" type="462c0819:PsiDirectoryNode" />
-              <item name="Exhibition" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -119,12 +114,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551892278315</updated>
-      <workItem from="1551892280253" duration="4082000" />
+      <workItem from="1551892280253" duration="4823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4082000" />
+    <option name="totallyTimeSpent" value="4823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -178,6 +173,28 @@
             <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#8154#8161#0" expanded="true" />
             <element signature="e#8204#8211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="208" column="61" selection-start-line="208" selection-start-column="61" selection-end-line="208" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#circle#0;n#symbol#4;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8191#8198#0" expanded="true" />
+            <element signature="e#8241#8248#0" expanded="true" />
+            <element signature="e#9148#9155#0" expanded="true" />
+            <element signature="e#9181#9188#0" expanded="true" />
+            <element signature="e#9473#9480#0" expanded="true" />
+            <element signature="e#9509#9516#0" expanded="true" />
+            <element signature="e#9850#9857#0" expanded="true" />
+            <element signature="e#9880#9887#0" expanded="true" />
+            <element signature="e#10155#10162#0" expanded="true" />
+            <element signature="e#10162#10169#0" expanded="true" />
           </folding>
         </state>
       </provider>
