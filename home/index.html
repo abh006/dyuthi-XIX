@@ -3,15 +3,33 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>3D Room Exhibition | Codrops</title>
+		<title>dyuthi XIX </title>
 		<meta name="description" content="An experimental 3D room template that aims to show exhibition details in an interesting way" />
 		<meta name="keywords" content="3d, room, exhibition, gallery, perspective, animation, web design, template" />
 		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" href="img/dyuthilogo.png">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="favicon" href="img/dyuthilogo.png">
 		<script>document.documentElement.className = 'js';</script>
+		<style>
+			@font-face {
+			  font-family: myFirstFont;
+			  src: url("css/swatch.ttf");
+			}
+			body{
+				font-family: myFirstFont;
+			}
+			.slide__name{
+				letter-spacing: 0.1em;
+				line-height: 1em;
+				font-size: 15vh;
+			}
+			.slide__title > span{
+				color: #4d4d4d;
+			}
+		</style>
 	</head>
 	<body>
 		<svg class="hidden">
@@ -128,12 +146,8 @@
 		</div><!-- /container -->
 		<div class="content">
 			<header class="codrops-header">
-				<div class="codrops-links">
-					<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/ExpandingBarMenus/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
-					<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=30534" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
-				</div>
-				<h1 class="codrops-header__title">3D Room Exhibition</h1>
-				<div class="subject">モダンアート</div>
+				<h1 class="codrops-header__title"></h1>
+				<div class="subject"></div>
 				<button class="btn btn--info btn--toggle">
 					<svg class="icon icon--info"><use xlink:href="#icon-info"></use></svg>
 					<svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>	
@@ -144,57 +158,60 @@
 				</button>
 				<div class="overlay overlay--menu">
 					<ul class="menu">
-						<li class="menu__item menu__item--current"><a class="menu__link" href="#">Exhibitions</a></li>
-						<li class="menu__item"><a class="menu__link" href="#">Discover</a></li>
-						<li class="menu__item"><a class="menu__link" href="#">Visit us</a></li>
-						<li class="menu__item"><a class="menu__link" href="#">Shop</a></li>
+						<li class="menu__item menu__item--current"><a class="menu__link" href="#">Events</a></li>
+						<li class="menu__item"><a class="menu__link" href="#">Pro shows</a></li>
+						<!--<li class="menu__item"><a class="menu__link" href="#">Visit us</a></li>-->
+						<!--<li class="menu__item"><a class="menu__link" href="#">Shop</a></li>-->
 					</ul>
 				</div>
 				<div class="overlay overlay--info">
-					<p class="info">&ldquo;Life in Pieces&rdquo; is the subject of all exhibitions taking place in the Mirai Art Gallery in 2017. Fragments of lost memories, fleeting moments and the breaking apart of human nature are this year's highlighted topics. We welcome you to a exploration space of a unique kind&mdash;the one that will stay with you and impact you on many levels. Come visit us.</p>
+					<p class="info">
+						<span style="color: #000;">&ldquo;This time vibe is gonna lose its dimensions&rdquo;</span><br><br>
+						This time around, Dyuthi is going to be celebrated as a National Level Arts Fest. Dyuthi is always the biggest carnival in GEC, where a blend of the most talented and the most diverse array of energetic college going youth from the South of India gather. Unlike previous years in which the artistic creativity of its participants had to be complimented by technical acumen, this year Dyuthi allows its participants to let flow their creative energy. Just like its meaning, Dyuthi is a festival that glows, bringing together the zeal and zest of everyone involved to make something truly special and memorable.</p>
 				</div>
 			</header>
-			<h4 class="location">Mirai Art Gallery &amp; Exhibition Center, Sapporo, Japan</h4>
+			<!--<h4 class="location">Entwining Surreal Escapism</h4>-->
 			<div class="slides">
 				<div class="slide">
-					<h2 class="slide__name">Kato <br/>Yatsumoto</h2>
+					<h2 class="slide__name">dyuthi <br/>XIX</h2>
 					<h3 class="slide__title">
-						<span>&ldquo;Understanding Life&rdquo;</span>
-						<div class="slide__number">Room <strong>Tenjin</strong></div>
+						<span class="grey-txt">&ldquo;Entwining Surreal Escapism&rdquo;</span>
+						<!--<div class="slide__number">Room <strong>Tenjin</strong></div>-->
 					</h3>
-					<p class="slide__date">25 Mar – 11 May 2017</p>
+					<p class="slide__date">March 14 15 16 17</p>
 				</div>
 				<div class="slide">
-					<h2 class="slide__name">Aiko <br/>Akiyama</h2>
+					<h2 class="slide__name">Pro Shows</h2>
 					<h3 class="slide__title">
-						<span>&ldquo;Faces of Peace&rdquo;</span>
-						<div class="slide__number">Room <strong>Suijin</strong></div>
+						<span>&ldquo;A necessary caption goes here&rdquo;</span>
+						<!--<div class="slide__number">Room <strong>Suijin</strong></div>-->
+						<a href="#"> <button class="btn">Wanna know more?</button> </a>
 					</h3>
-					<p class="slide__date">31 Mar – 25 Apr 2017</p>
+					<p class="slide__date"></p>
 				</div>
 				<div class="slide">
-					<h2 class="slide__name">Misako <br/>Shiraishi</h2>
+					<h2 class="slide__name">Games</h2>
 					<h3 class="slide__title">
-						<span>&ldquo;Instant Gratification&rdquo;</span>
-						<div class="slide__number">Room <strong>Izanami</strong></div>
+						<span>&ldquo;Out there in the ground&rdquo;</span>
+						<!--<div class="slide__number">Room <strong>Izanami</strong></div>-->
 					</h3>
-					<p class="slide__date">4 Apr – 30 Apr 2017</p>
+					<p class="slide__date"></p>
 				</div>
 				<div class="slide">
-					<h2 class="slide__name">Tadashi <br/>Takayama</h2>
+					<h2 class="slide__name">Sponsors</h2>
 					<h3 class="slide__title">
-						<span>&ldquo;Facts of Blossoms&rdquo;</span>
-						<div class="slide__number">Room <strong>Raijin</strong></div>
+						<span>&ldquo;&rdquo;</span>
+						<!--<div class="slide__number">Room <strong>Raijin</strong></div>-->
 					</h3>
-					<p class="slide__date">15 Apr – 18 May 2017</p>
+					<p class="slide__date"></p>
 				</div>
 				<div class="slide">
-					<h2 class="slide__name">Etsuko <br/>Hamasaki</h2>
+					<h2 class="slide__name">Contact</h2>
 					<h3 class="slide__title">
-						<span>&ldquo;In Loving Memory&rdquo;</span>
-						<div class="slide__number">Room <strong>Hachiman</strong></div>
+						<span>&ldquo;Keep in touch with&rdquo;</span>
+						<!--<div class="slide__number">Room <strong>Hachiman</strong></div>-->
 					</h3>
-					<p class="slide__date">5 May – 17 Jun 2017</p>
+					<p class="slide__date"></p>
 				</div>
 			</div>
 			<nav class="nav">
