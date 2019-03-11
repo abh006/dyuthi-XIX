@@ -42,7 +42,7 @@
 				</header>
 			</div>
 			<div class="content">
-				<div class="grid">
+				<div class="grid" id="event-div-id">
 					<a class="grid__item" href="#preview-1">
 						<div class="box">
 							<div class="box__shadow"></div>
@@ -271,5 +271,31 @@
 		<script src="js/events1.js"></script>
 		<script src="js/events2.js"></script>
 		<script src="js/events.js"></script>
+		<!--<script>
+			$.ajax({
+				url: "/populate/",
+				type: 'GET',
+				error: function () {
+					alert('Could not connect to server...');
+				},
+				success: function(response) {
+					maindiv = $('#event-div-id');
+					for(var i=0; ;i++){
+						var a_tag = $('<a class="grid__item" href="#preview-'+response.xyz+'">');
+						var div_box = $('<div class="box"></div>');
+						var img_tag = $('<img class="box__img" alt="Some image"/>');
+						img_tag.attr('src', response.xyz);
+						var h3_tag = $('<h3 class="box__title"><span class="box__title-inner" data-hover="Memo">'+response.xyz+'</span></h3>');
+						var h4_tag = $('<h4 class="box__text"><span class="box__text-inner">'+response.xyz+'</span></h4>);
+						div_box.append(img_tag);
+						div_box.append(h3_tag);
+						div_box.append(h4_tag);
+						a_tag.append(div_box);
+						maindiv.append(a_tag)
+					}	
+
+				}
+			});
+		</script>-->
 	</body>
 </html>
