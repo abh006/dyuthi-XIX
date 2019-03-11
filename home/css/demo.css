@@ -296,12 +296,12 @@ a:focus {
 }
 
 .slide__name {
-	font-size: 15vw;
+	font-size: 9vw;
 	line-height: 0.8;
 	margin: 0;
 	padding: 0 0 0 5vw;
 	text-indent: -5vw;
-	letter-spacing: -0.05em;
+	/*letter-spacing: -0.05em;*/
 	text-transform: lowercase;
 	color: #000;
 }
